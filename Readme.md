@@ -1,8 +1,8 @@
-#Sample Google Maps Test
+# Sample Google Maps Test
 This project compare API and UI response of Google maps 
 for direction between two locations
 
-##Dependencies
+## Dependencies
  - Windows machine 
    (To run in linux, chromedirver and path need to be changed. Rest should be fine)
  - Java 8 (32 bit)
@@ -14,7 +14,7 @@ This has both Junit report and Serenity report (simplified versions).
 You can observe test failed as the esitmated duration mismatch by 1 min,
 between UI & API
 
-##To run locally (Windows)
+## To run locally (Windows)
 Before running the script, take note of following things
 
  - If you are behind proxy, you need to update Serenity & WebDriver
