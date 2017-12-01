@@ -8,8 +8,9 @@ for direction between two locations
  - Java 8 (32 bit)
  - Chrome (32 bit)
  - IDE is not needed
- 
-To view results, check ```/reports``` folder. 
+
+## Sample results 
+To view results from past run, check ```/reports``` folder. 
 This has both Junit report and Serenity report (simplified versions). 
 You can observe test failed as the esitmated duration mismatch by 1 min,
 between UI & API
