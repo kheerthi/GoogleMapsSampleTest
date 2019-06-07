@@ -15,12 +15,12 @@ public class DirectionsPage extends PageObject {
 
     public String getDistance() {
         return firstResult.getText().split("\n")[1].replace("miles", "mi");
-        ReportPortal.emitLog("My message::getDistance", "INFO", Calendar.getInstance().getTime());
+        //ReportPortal.emitLog("My message::getDistance", "INFO", Calendar.getInstance().getTime());
     }
 
     public String getDuration() {
         return firstResult.getText().split("\n")[0].replace("mins", "min");
-        ReportPortal.emitLog("My message::getDuration", "INFO", Calendar.getInstance().getTime());
+        //ReportPortal.emitLog("My message::getDuration", "INFO", Calendar.getInstance().getTime());
     }
 
     private String getUrl(String origin, String dest) {
