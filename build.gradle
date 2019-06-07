@@ -13,6 +13,9 @@ buildscript {
     repositories {
         mavenLocal()
         jcenter()
+        maven {
+        url "http://dl.bintray.com/epam/reportportal"
+    }
     }
     dependencies {
         classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.1")
