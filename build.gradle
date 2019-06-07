@@ -4,6 +4,9 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
     jcenter()
+    maven {
+        url "http://dl.bintray.com/epam/reportportal"
+    }
 }
 
 buildscript {
@@ -41,6 +44,7 @@ dependencies {
     testCompile 'net.serenity-bdd:serenity-rest-assured:1.8.1'
     testCompile 'org.assertj:assertj-core:3.8.0'
     testCompile 'org.slf4j:slf4j-simple:1.7.25'
+    compile: 'com.github.invictum:serenity-reportportal-integration:1.4.0'
 }
 
 gradle.startParameter.continueOnFailure = true
